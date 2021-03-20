@@ -15,13 +15,13 @@ body {
 .max-width-wrapper {
   max-width: 760px;
   margin: 0 auto;
+  padding: 24px;
 }
 
 .intro-chunk {
   margin-top: 96px;
   margin-bottom: 64px;
-  max-width: 370px;
-  padding: 0 56px;
+  max-width: 300px;
 }
 
 .intro-chunk strong {
@@ -34,9 +34,8 @@ body {
 
 .card {
   padding: 32px 24px;
-  margin-top: 32px;
+  margin: -24px;
   background-color: white;
-  max-width: 550px;
   border-bottom: 5px solid hsl(0deg, 0%, 40%);
 }
 
@@ -50,6 +49,7 @@ body {
 }
 
 main {
+  padding: 96px 0;
   background-color: hsl(0deg, 0%, 60%); 
   border-top: 5px solid hsl(0deg, 0%, 40%);
 }
@@ -58,19 +58,4 @@ section {
   width: 100%;
   padding: 32px;
   background-color: hsl(0deg, 0%, 60%);
-}
-
-@media(max-width: 720px){
-  .card {
-    margin-top: 64px;
-    width: 100%;
-    max-width: 720px;
-  }
-
-  .max-width-wrapper {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 720px;
-  }
 }
